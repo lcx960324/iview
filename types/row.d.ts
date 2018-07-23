@@ -1,4 +1,4 @@
-import {IViewComponent} from './compnent'
+import {IViewComponent} from './component'
 
 export type LayoutMode = 'flex'
 
@@ -11,4 +11,5 @@ export declare class Row extends IViewComponent {
     type: LayoutMode
     align: VerticalAlignment
     justify: HorizontalAlignment
+    className: string
 }

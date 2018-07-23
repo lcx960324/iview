@@ -1,5 +1,5 @@
 import {VNode} from 'vue'
-import {IViewComponent} from './compnent'
+import {IViewComponent} from './component'
 
 export interface CollapseEventHandler {
     (collapsed: boolean): void

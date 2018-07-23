@@ -1,4 +1,4 @@
-import {IViewComponent} from './compnent'
+import {IViewComponent} from './component'
 
 export declare class Col extends IViewComponent {
     span: number | string
@@ -6,6 +6,7 @@ export declare class Col extends IViewComponent {
     offset: number | string
     push: number | string
     pull: number | string
+    className: string
     xs: number | object
     sm: number | object
     md: number | object
